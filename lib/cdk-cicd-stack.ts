@@ -16,7 +16,7 @@ export class CdkCicdStack extends cdk.Stack {
           'npm ci', 
           'npx cdk synth', // Instructs CodeBuild to install required packages
         ],
-        primaryOutputDirectory: './cdk.out',
+        // primaryOutputDirectory: './cdk.out',
       })
     })
 
